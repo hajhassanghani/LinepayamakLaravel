@@ -1,0 +1,29 @@
+{
+    "name": "linepayamak/laravel",
+    "homepage": "https://github.com/hajhassanghani/LinepayamakLaravel",
+    "description": "A Laravel package for interacting with LinePayamak service.",
+    "type": "laravel-package",
+    "keywords": [
+        "laravel",
+        "soap",
+        "sms",
+        "package"
+    ],
+    "authors": [
+        {
+            "name": "Hassan Hajghani",
+            "email": "hajhassanghani@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "illuminate/support": ">=6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinePayamak\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
